@@ -32,7 +32,7 @@ public class VaadintestUI extends UI {
 		button.addClickListener(new Button.ClickListener() {
 			public void buttonClick(ClickEvent event) {
 				try {
-					layout.addComponent(new Label("Thank you for clicking"+CreateTables.create()));
+					layout.addComponent(new Label("Thank you for query"+CreateTables.create()));
 				} catch (Exception e) {
 					// TODO Auto-generated catch block
 					e.printStackTrace();
